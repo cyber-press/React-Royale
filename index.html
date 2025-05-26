@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick Draw Tournament</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quick Draw Tournament!</h1>
+    <h2 id="gameStatus">Waiting for opponent...</h2>
+    <button id="player1" onclick="sendReaction()">Player 1</button>
+    <button id="player2" onclick="sendReaction()">Player 2</button>
+    <h3 id="winner"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
