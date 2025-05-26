@@ -1,5 +1,5 @@
 {
-  "name": "quick-draw-tournament",
+  "name": "react-royal",
   "version": "1.0.0",
   "description": "Multiplayer quick draw reaction game",
   "main": "server.js",
