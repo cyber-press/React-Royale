@@ -2,16 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quick Draw Tournament</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Royal - Quick Draw Tournament</title>
     <script src="/socket.io/socket.io.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Quick Draw Tournament!</h1>
+    <h1>🔥 React Royal - Multiplayer Quick Draw 🎮</h1>
+    <h2 id="playerStatus">Assigning role...</h2>
     <h2 id="gameStatus">Waiting for opponent...</h2>
-    <button id="player1" onclick="sendReaction()">Player 1</button>
-    <button id="player2" onclick="sendReaction()">Player 2</button>
+
+    <div class="buttons">
+        <button id="player1">Player 1</button>
+        <button id="player2">Player 2</button>
+    </div>
+
     <h3 id="winner"></h3>
+    <button id="resetGame" class="reset">🔄 Reset Game</button>
 
     <script src="script.js"></script>
 </body>
