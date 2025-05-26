@@ -1,4 +1,6 @@
 # 🎮 Quick Draw Multiplayer Tournament  
+![Version](https://img.shields.io/badge/version-1.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-Active-brightgreen)  
+
 A fast-paced **reaction-based multiplayer game**, where players compete to see **who reacts the quickest**! 🚀  
 
 ## 🔥 Features  

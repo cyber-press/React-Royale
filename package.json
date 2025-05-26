@@ -1,0 +1,16 @@
+{
+  "name": "quick-draw-tournament",
+  "version": "1.0.0",
+  "description": "Multiplayer quick draw reaction game",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1",
+    "socket.io": "^4.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Press",
+  "license": "MIT"
+}
